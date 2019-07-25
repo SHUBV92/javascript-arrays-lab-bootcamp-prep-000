@@ -1,12 +1,12 @@
 describe('Arrays', function() {
-  describe('kittens', function() {
+  describe('kittens', function push() {
     it('defines kittens as `var kittens = ["Milo", "Otis", "Garfield"]`', function() {
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
     })
   })
 
   describe('destructivelyAppendKitten(name)', function() {
-    it('appends a kitten to the end of the kittens array', function() {
+    it('appends a kitten to the end of the kittens array', function appendKitten() {
       window.kittens = ['Milo', 'Otis', 'Garfield'];
       destructivelyAppendKitten('Ralph')
       expect(window.kittens).toEqual(["Milo", "Otis", "Garfield", "Ralph"])
